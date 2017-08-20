@@ -9,7 +9,8 @@ namespace first_program
     class Program
     {
         static void Main(string[] args)
-        {
+        {// this is my program
+            // this is a new comment
             Console.WriteLine("Hello my friend");
               Console.ReadKey();
         }
