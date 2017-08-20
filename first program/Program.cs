@@ -4,15 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace first_program
+namespace DataTypes_floatpointeType
 {
     class Program
     {
         static void Main(string[] args)
-        {// this is my program
-            // this is a new comment
-            Console.WriteLine("Hello my friend");
-              Console.ReadKey();
+        {
+            decimal dcmin = decimal.MinValue;
+            decimal dcmax = decimal.MaxValue;
+          
+            Console.WriteLine("min value = {0}\n max value = {1}", dcmin, dcmax);
+            Console.ReadKey();
+         
         }
     }
 }
